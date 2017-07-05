@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="css/informatics.css">
+    <link rel="stylesheet" type="text/css" href="frontawesome.css">
   <style media="screen">
 
       <?php include_once 'css/informatics.css'; ?>
@@ -24,15 +25,14 @@
   </head>
   <body>
     <div class="container-fluid ">
-
-      <?php include_once 'header.html'; ?>
       <object type="text/html" data="header.html"></object>
-      <span class="hide-on-small"><?php include_once 'social-media.html'; ?></span>
+      
+       <span class="hide-on-small"><object type="text/html" data="social-media.html"></object></span>
 
       <?php include_once 'navbar.html' ;?>
-
+<object type="text/html" data="navbar.html"></object>
       <?php include_once 'mainimage.html'; ?>
-
+<object type="text/html" data="mainimage.html"></object>
     <?php include_once 'content-info.html'; ?>
 
    <div class="content-session-1">
@@ -40,18 +40,24 @@
           <div class="col-lg-8 col-md-8 col-sm-12">
             <h5 style="margin-left:5px;color:#766C93;">NEW & ACTIVITY</h5>
             <?php include_once 'carousel.html'; ?>
+            <object type="text/html" data="carouse.html"></object>
           </div>
           <div class="col-lg-4 col-md-8 col-sm-12">
             <h5 style="margin-left:5px; color:#766C93;">SPU NEWS</h5>
             <?php include_once 'medialist.html'; ?>
+            <object type="text/html" data="medialist.html"></object>
           </div>
         </div>
       </div>
 
     <?php include_once 'content-session-2.html'; ?>
+      <object type="text/html" data="content-session-2.html"></object>
     <br>
     <?php include_once 'content-session-3.html'; ?>
+      <object type="text/html" data="content-session-3.html"></object>
     <?php include_once 'content-session-4.html'; ?>
+      
+   <object type="text/html" data="content-session-4.html"></object>
 
     <br>
 

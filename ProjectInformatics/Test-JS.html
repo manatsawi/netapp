@@ -1,0 +1,21 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style media="screen">
+#myElem {
+    top:0;
+    left:0;
+    height:130px;
+    width:130px;
+    background: #ffff;
+    background-color: #ffff;
+}
+</style>
+
+
+<div id="#myElem">
+
+</div>
+
+<script type="text/javascript">
+$("#myElem").fadeIn('slow').animate({opacity: 1.0}, 1500).effect("pulsate", { times: 2 }, 800).fadeOut('slow');
+</script>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style media="screen">
+#picOne{
+position:absolute;
+display: none;
+opacity: 0.8
+}
+#pics {
+width:auto;
+height:auto;
+position: fixed;
+bottom: 0px;
+right: 0px;
+margin-bottom: 100px;
+}
+body{
+  background-color: #E7E4E4;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#picOne').fadeIn('slow').animate({ left: "-300px" }, 'slow').delay(5000).fadeOut( 1600, "linear");
+});
+</script>
+</head>
+<body >
+
+  <div id="pics">
+  <img src="image/logo-it.png"  id="picOne" />
+  </div>
+
+</body>
+</html>
